@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #232123;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* CABEÇALHO DA PAGINA */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: end;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+/* #title img {
+    width: 220px;
+} */
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #840ec8;
+    transition: 0.5s all;
+}
+
+#contact-btn {
+    border: 2px solid #840ec8;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #840ec8;
+}
+
+#contact-btn:hover {
+    background-color: #232123;
+    color: #fff;
+    transition: 0.3s;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+section {
+    border-bottom: 1px solid #fff;
+    
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+ 
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 10px;
+ 
+}
+
+p {
+    line-height: 20px;
+    max-width: 550px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+span {
+    color: #840ec8;
+}
+
+img {
+    width: 520px;
+
+}
+
+.box-section-3 {
+    text-align: center;
+    line-height: 10px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.box-section-3 p {
+    text-align: center;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+.title-section-3 {
+    color: #840ec8;
+    margin: 15px;
+}
+
+.box-cards-section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.card-section3 {
+
+    width: 350px;
+    height: 370px;
+    border-radius: 20px;
+}
+
+.btn-cards {
+    border: 2px solid #840ec8;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-cards:hover {
+    background-color: #840ec8;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.img-card {
+    align-items: center;
+    width: 30%;
+}
+
+.itens-card {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-midia {
+    display: inline-block;
+    margin: 15px;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 10px;
+}
+
+.name-title{
+    font-size: 50px;
+    line-height: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+.name-title:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    
+}
+
+.img-title {
+    display: flex;
+    border-radius: 50%;
+    width: 350px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img-title:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border: none;
+
+}
+
+#quemsou {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
