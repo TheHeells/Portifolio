@@ -209,3 +209,23 @@ img {
     justify-content: center;
     text-align: center;
 }
+
+.portifolio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.card-portifolio {
+    width: 350px;
+    height: 220px;
+    background-color: #fff;
+    
+}
+
+.paragraph-portifolio {
+    color: #232123;
+}
