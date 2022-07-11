@@ -103,15 +103,25 @@ span {
     border-radius: 50%;
 }
 
-/* section Oque faça */
+/* section Oque faço */
+
+.skills {
+    margin-bottom: -30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
 
 .oquefaco{
     min-width: 1200px;
-    height: 400px;
+    height: 450px;
     background-color: #354259;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 70px;
+
 }
 
 .card{
@@ -148,4 +158,26 @@ span {
 .laravel{
     width: 100px;
     border-radius: 20px;
+}
+
+/* section Portifolio */
+.portifolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card-portifolio {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.title-portifolio {
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
 }
