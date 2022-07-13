@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;600&display=swap');
 /* Reset do HTML */
 * {
     margin: 0;
@@ -76,7 +77,10 @@ span {
 }
 
 .quemSou h1{
-    font-size: 30px;
+    font-size: 40px;
+    color: #354259;
+    font-weight: 600;
+    
 }
 
 .quemSou p {
@@ -111,6 +115,8 @@ span {
     font-size: 50px;
     font-weight: bold;
     color: #fff;
+    -webkit-filter: drop-shadow(50px 50px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 .oquefaco{
@@ -129,7 +135,7 @@ span {
     width: 380px;
     height: 250px;
     background-color:#fff;
-    border-radius: 10px;
+    border-radius: 45px;
 }
 
 .card p {
