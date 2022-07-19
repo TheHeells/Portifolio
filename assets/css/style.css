@@ -175,6 +175,10 @@ span {
     position: relative;
 }
 
+.card img {
+    padding-top: -50px;
+}
+
 .card-title:hover {
     -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
@@ -195,28 +199,28 @@ span {
     flex-wrap: wrap;
     gap: 90px;
 } */
-
-/* .card-portifolio {
+/*
+.card-portifolio {
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background-color: #fff;
+
     border-radius: 20px;
-} */
+    
+}
 
 .card-portifolio p {
     font-weight: bold;
-}
+}  */
 
-.title-portifolio {
+/* .title-portifolio {
     text-align: center;
     padding-bottom: 40px;
     font-size: 40px;
-}
+} */
 
-.faixa-portifolio {
+/* .faixa-portifolio {
     display: flex;
     width: 100%;
     background-color: #c2ded1;
@@ -224,10 +228,10 @@ span {
     justify-content: center;
     border-radius: 5px;
     margin-top: -5px;
-}
+} */
 
-/*
-.img-portifolio {
+
+/* .img-portifolio {
     width: 500px;
     height: 310px;
     transition: 0.4s;
@@ -353,4 +357,62 @@ span {
     .quemSou-content {
         flex-direction: column;
     }
+}
+
+@media screen and (min-width: 901px){
+
+    .portifolio {
+    display: flex;
+    flex-direction: row;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.card-portifolio {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    
+}
+
+.card-portifolio p {
+    font-weight: bold;
+} 
+
+.title-portifolio {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.faixa-portifolio {
+    display: flex;
+    width: 100%;
+    background-color: #c2ded1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+
+.img-portifolio {
+    width: 500px;
+    height: 310px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    position: static;
+}
+
+.img-portifolio:hover {
+    border: 2px solid #354259;
+}
 }
