@@ -180,7 +180,7 @@ span {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 90px;
 }
 
 .card-portifolio {
@@ -194,24 +194,43 @@ span {
     border-radius: 20px;
 }
 
+.card-portifolio p {
+    font-weight: bold;
+}
 .title-portifolio {
     text-align: center;
-    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 80px;
     font-size: 50px;
 }
 
 .faixa-portifolio {
-    width: 100%;
-    background-color: #c2ded1;
     display: flex;
+    width: 70%;
+    height: 70px;
+    background-color: #c2ded1;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    border-radius: 5px;
+   margin-top: -5px;
 }
 
 .title-card-portifolio {
-   display: flex;
-   margin-top: -130px;
+    position: relative;
+}
+
+.img-portifolio {
+    width: 500px;
+    height: 310px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    position: static;
+}
+
+.img-portifolio:hover {
+    border: 2px solid #354259;
 }
 
 @media (max-width: 280px) {
