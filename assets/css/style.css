@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;600&display=swap');
+
 /* Reset do HTML */
 * {
     margin: 0;
@@ -27,15 +27,15 @@ span {
     color: #fff;
 }
 
-.fullStack{
+.fullStack {
     color: #c2ded1;
     transition: all 0.5s;
     cursor: pointer;
 }
 
-.fullStack:hover{
-    -webkit-filter: drop-shadow(50px 50px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+.fullStack:hover {
+    -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .navbar-content {
@@ -47,7 +47,7 @@ span {
     flex-wrap: wrap;
 }
 
-.div-content{
+.div-content {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
@@ -65,7 +65,8 @@ span {
     font-weight: bold;
     transition: all 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     border: 1px solid #354259;
@@ -73,18 +74,18 @@ span {
 
 /* Section Quem sou */
 
-.quemSou-content{
+.quemSou-content {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 
-.quemSou h1{
+.quemSou h1 {
     font-size: 40px;
     color: #354259;
     font-weight: 600;
-    
+
 }
 
 .quemSou p {
@@ -96,7 +97,7 @@ span {
     font-weight: bold;
 }
 
-.img-logo2{
+.img-logo2 {
     width: 300px;
     display: flex;
     border-radius: 10%;
@@ -106,7 +107,7 @@ span {
     border: 10px solid transparent;
 }
 
-.img-logo2:hover{
+.img-logo2:hover {
     border: 10px solid #354259;
     border-radius: 50%;
 }
@@ -119,16 +120,15 @@ span {
     font-size: 50px;
     font-weight: bold;
     color: #fff;
-    -webkit-filter: drop-shadow(50px 50px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
-.oquefaco{
-    min-width: 1200px;
+.oquefaco {
+    min-width: 100vh;
     height: 450px;
     background-color: #354259;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding-top: 70px;
@@ -136,11 +136,11 @@ span {
 
 }
 
-.card{
+.card {
     display: block;
     width: 380px;
     height: 250px;
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 45px;
 }
 
@@ -153,7 +153,7 @@ span {
     line-height: 0.1;
 }
 
-.card-title{
+.card-title {
     text-align: center;
     justify-content: center;
     margin-top: -50px;
@@ -161,13 +161,13 @@ span {
     cursor: pointer;
 }
 
-.card-title:hover{
+*/ .card-title:hover {
     -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
 }
 
 
-.laravel{
+.laravel {
     width: 100px;
     border-radius: 20px;
 }
@@ -175,6 +175,8 @@ span {
 /* section Portifolio */
 .portifolio {
     display: flex;
+    flex-direction: row;
+    min-width: 100vh;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -192,4 +194,123 @@ span {
     text-align: center;
     padding: 40px;
     font-size: 50px;
+}
+
+@media (max-width: 280px) {
+    .div-content {
+        display: none;
+        width: 100%;  
+    } 
+
+    .navbar-content {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #354259;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 580px) {
+    .quemSou-content {
+        flex-direction: column;
+    }
+
+    .oquefaco {
+        display: flex;
+        gap: 80px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .card {
+        display: block;
+        width: 90%;
+        height: 250px;
+    }
+
+    .img-logo2 {
+    
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+@media (max-width: 1024px ) {
+    .quemSou-content {
+        flex-direction: column;
+    }
+
+    .oquefaco {
+        display: flex;
+        gap: 80px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .card {
+        display: block;
+        width: 50%;
+        height: 250px;
+    }
+
+    .img-logo2 {
+    
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+
+@media (max-width: 1138px ) {
+    .quemSou-content {
+       flex-wrap: wrap;
+    }
+
+    .oquefaco {
+        display: flex;
+        gap: 80px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .card {
+        display: block;
+        width: 50%;
+        height: 250px;
+    }
+
+    .img-logo2 {
+    
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+
+@media (max-width: 500px ) {
+    .quemSou-content {
+       flex-wrap: wrap;
+    }
+
+    .oquefaco {
+        display: flex;
+        gap: 80px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .card {
+        display: block;
+        width: 90%;
+        height: 250px;
+    }
+
+    .img-logo2 {
+        align-items: center;
+        justify-content: center;
+       
+    }
 }
