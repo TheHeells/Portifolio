@@ -211,7 +211,7 @@ span {
 
 .title-card-portifolio {
    display: flex;
-   margin-top: -155px;
+   margin-top: -130px;
 }
 
 @media (max-width: 280px) {
