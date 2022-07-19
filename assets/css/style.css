@@ -13,6 +13,11 @@ body {
 }
 
 /* Header */
+.header-content {
+    display: block;
+    width: 100%;
+}
+
 .img-logo {
     width: 150px;
     margin-left: 20px;
@@ -34,7 +39,6 @@ span {
 }
 
 .navbar-content {
-    min-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,9 +128,11 @@ span {
     height: 450px;
     background-color: #354259;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding-top: 70px;
+    flex-wrap: wrap;
 
 }
 
