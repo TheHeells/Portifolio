@@ -28,6 +28,7 @@ body {
     align-items: center;
     padding: 8px;
     gap: 8px;
+    background-color: #fff;
 }
 
 .img-logo {
@@ -40,6 +41,8 @@ span {
 }
 
 .fullStack {
+    display: flex;
+    text-align: center;
     color: #c2ded1;
     transition: all 0.5s;
     cursor: pointer;
@@ -240,13 +243,14 @@ span {
 @media (max-width: 500px) {
 
     .div-content {
-        display: flex;
+        display: none;
         flex-wrap: wrap;
     }
 
     .navbar-content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .quemSou-content {
@@ -256,6 +260,12 @@ span {
 
     .quemSou p {
         font-size: 16px;
+    }
+
+    .img-logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .img-logo2 {
