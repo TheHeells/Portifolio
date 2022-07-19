@@ -184,6 +184,10 @@ span {
 }
 
 .card-portifolio {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 500px;
     height: 300px;
     background-color: #fff;
@@ -194,6 +198,20 @@ span {
     text-align: center;
     padding: 40px;
     font-size: 50px;
+}
+
+.faixa-portifolio {
+    width: 100%;
+    background-color: #c2ded1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.title-card-portifolio {
+   display: flex;
+   margin-top: -155px;
 }
 
 @media (max-width: 280px) {
