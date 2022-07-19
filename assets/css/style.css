@@ -18,6 +18,18 @@ body {
     width: 100%;
 }
 
+.img-midias-sociais {
+    width: 35px;
+}
+
+.midias-sociais {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+
 .img-logo {
     width: 150px;
     margin-left: 20px;
