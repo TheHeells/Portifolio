@@ -197,6 +197,7 @@ span {
 .card-portifolio p {
     font-weight: bold;
 }
+
 .title-portifolio {
     text-align: center;
     padding-top: 50px;
@@ -212,11 +213,7 @@ span {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-   margin-top: -5px;
-}
-
-.title-card-portifolio {
-    position: relative;
+    margin-top: -5px;
 }
 
 .img-portifolio {
@@ -236,8 +233,8 @@ span {
 @media (max-width: 280px) {
     .div-content {
         display: none;
-        width: 100%;  
-    } 
+        width: 100%;
+    }
 
     .navbar-content {
         display: flex;
@@ -269,13 +266,14 @@ span {
     }
 
     .img-logo2 {
-    
+
         align-items: center;
         justify-content: center;
-       
+
     }
 }
-@media (max-width: 1024px ) {
+
+@media (max-width: 1024px) {
     .quemSou-content {
         flex-direction: column;
     }
@@ -294,16 +292,16 @@ span {
     }
 
     .img-logo2 {
-    
+
         align-items: center;
         justify-content: center;
-       
+
     }
 }
 
-@media (max-width: 1138px ) {
+@media (max-width: 1138px) {
     .quemSou-content {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .oquefaco {
@@ -320,16 +318,16 @@ span {
     }
 
     .img-logo2 {
-    
+
         align-items: center;
         justify-content: center;
-       
+
     }
 }
 
-@media (max-width: 280px ) {
+@media (max-width: 280px) {
     .quemSou-content {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .oquefaco {
@@ -348,12 +346,12 @@ span {
     .img-logo2 {
         align-items: center;
         justify-content: center;
-       
+
     }
 
     .card-portifolio {
         width: 90%;
-        
+
     }
 
     .title-card-portifolio {
@@ -363,5 +361,5 @@ span {
     .title-portifolio {
         justify-content: center;
     }
-    
+
 }
