@@ -308,7 +308,7 @@ span {
     }
 }
 
-@media (max-width: 500px ) {
+@media (max-width: 280px ) {
     .quemSou-content {
        flex-wrap: wrap;
     }
@@ -331,4 +331,18 @@ span {
         justify-content: center;
        
     }
+
+    .card-portifolio {
+        width: 90%;
+        
+    }
+
+    .title-card-portifolio {
+        font-size: 20px;
+    }
+
+    .title-portifolio {
+        justify-content: center;
+    }
+    
 }
