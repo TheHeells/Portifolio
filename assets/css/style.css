@@ -182,6 +182,10 @@ span {
     color: #fff;
 }
 
+.portifolio {
+    background-color: #000;
+}
+
 @media (max-width: 900px) {
   
     .div-content {
@@ -289,6 +293,11 @@ span {
         color: #fff;
         -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
         filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+        margin-bottom: -70px;
+    }
+    .title-card-portifolio {
+        color: #fff;
+        margin-top: 60px;
     }
 }
 
@@ -341,6 +350,7 @@ span {
         color: #fff;
         -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
         filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+        margin-bottom: -87px;
     }
 
     .img-portifolio {
@@ -354,7 +364,7 @@ span {
     }
 
     .img-portifolio:hover {
-        border: 2px solid #354259;
+        border: 2px solid #ff0044;
     }
 
     .card-title img {
@@ -371,6 +381,7 @@ span {
 
     .title-card-portifolio {
         color: #fff;
+        margin-top: 100px;
     }
 
 }
