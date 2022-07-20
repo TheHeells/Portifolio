@@ -178,6 +178,8 @@ span {
     border-radius: 20px;
 }
 
+/* PORTIFOLIO */
+
 .faixa-portifolio {
     color: #fff;
 }
@@ -185,6 +187,14 @@ span {
 .portifolio {
     background-color: #000;
 }
+
+.img-faixa {
+    width: 50px;
+    align-items: center;
+    margin-top: -150px;
+    border-radius: 15px;
+}
+
 
 @media (max-width: 900px) {
   
@@ -299,6 +309,11 @@ span {
         color: #fff;
         margin-top: 60px;
     }
+    .img-faixa {
+        width: 35px;
+        justify-content: center;
+        margin-top: -150px;
+    }
 }
 
 @media (max-width: 1138px) {
@@ -324,7 +339,7 @@ span {
         flex-direction: row;
         min-width: 100vh;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 90px;
     }
@@ -383,5 +398,7 @@ span {
         color: #fff;
         margin-top: 100px;
     }
+
+    
 
 }
