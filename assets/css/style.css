@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #cdc2ae;
+    background-color: #ff0044;
 }
 
 /* Header */
@@ -43,21 +43,16 @@ span {
 .fullStack {
     display: flex;
     text-align: center;
-    color: #c2ded1;
+    color: #ff0044;
     transition: all 0.5s;
     cursor: pointer;
-}
-
-.fullStack:hover {
-    -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .navbar-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #354259;
+    background-color: #000;
     padding: 15px;
     flex-wrap: wrap;
 }
@@ -79,12 +74,13 @@ span {
     border-radius: 10px;
     font-weight: bold;
     transition: all 0.5s;
+    color: #ff0044;
 }
 
 .btn:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    border: 1px solid #354259;
+    border: 1px solid #000;
 }
 
 /* Section Quem sou */
@@ -98,7 +94,7 @@ span {
 
 .quemSou h1 {
     font-size: 40px;
-    color: #354259;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -107,7 +103,7 @@ span {
     font-size: 25px;
     text-align: justify;
     padding: 15px;
-    color: #354259;
+    color: #fff;
 }
 
 .img-logo2 {
@@ -121,7 +117,7 @@ span {
 }
 
 .img-logo2:hover {
-    border: 10px solid #354259;
+    border: 10px solid #000;
     border-radius: 50%;
 }
 
@@ -176,75 +172,15 @@ span {
     padding-top: -50px;
 }
 
-.card-title:hover {
-    -webkit-transform: rotateZ(360deg);
-    transform: rotateZ(360deg);
-}
 
 .laravel {
     width: 100px;
     border-radius: 20px;
 }
 
-/* section Portifolio */
-
-.title-card-portifolio{
-    font-weight: 400;
+.faixa-portifolio {
+    color: #fff;
 }
-/* .portifolio {
-    display: flex;
-    flex-direction: row;
-    min-width: 100vh;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 90px;
-} */
-/*
-.card-portifolio {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 20px;
-    
-}
-
-.card-portifolio p {
-    font-weight: bold;
-}  */
-
-/* .title-portifolio {
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 40px;
-} */
-
-/* .faixa-portifolio {
-    display: flex;
-    width: 100%;
-    background-color: #c2ded1;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin-top: -5px;
-} */
-
-
-/* .img-portifolio {
-    width: 500px;
-    height: 310px;
-    transition: 0.4s;
-    cursor: pointer;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    position: static;
-}
-
-.img-portifolio:hover {
-    border: 2px solid #354259;
-} */
 
 @media (max-width: 900px) {
 
@@ -268,6 +204,10 @@ span {
         font-size: 16px;
     }
 
+    .quemSou h1 {
+        font-size: 22px;
+    }
+
     .img-logo {
         display: flex;
         justify-content: center;
@@ -277,6 +217,8 @@ span {
     .img-logo2 {
         width: 16em;
         justify-content: center;
+        border-radius: 50%;
+        border: 10px solid #000;
     }
 
     .oquefaco {
@@ -285,7 +227,7 @@ span {
         flex-direction: column;
         justify-content: center;
         height: auto;
-        background-color: #354259;
+        background-color: #000;
         padding: 15px;
     }
 
@@ -336,11 +278,17 @@ span {
     .title-card-portifolio {
         font-size: 16px;
         text-align: center;
+        color: #fff;
     }
 
     .title-portifolio {
         text-align: center;
         padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 35px;
+        color: #fff;
+        -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
+        filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     }
 }
 
@@ -360,51 +308,69 @@ span {
     }
 }
 
-@media screen and (min-width: 901px){
+@media screen and (min-width: 901px) {
 
     .portifolio {
-    display: flex;
-    flex-direction: row;
-    min-width: 100vh;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 90px;
-}
+        display: flex;
+        flex-direction: row;
+        min-width: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 90px;
+    }
 
-.card-portifolio {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    
-}
+    .card-portifolio {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
 
-.card-portifolio p {
-    font-weight: bold;
-} 
+    }
 
-.title-portifolio {
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 40px;
-}
+    .card-portifolio p {
+        font-weight: bold;
+    }
 
+    .title-portifolio {
+        margin-top: 60px;
+        text-align: center;
+        padding-bottom: 60px;
+        font-size: 50px;
+        color: #fff;
+        -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
+        filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    }
 
+    .img-portifolio {
+        width: 500px;
+        height: 310px;
+        transition: 0.4s;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        position: static;
+    }
 
+    .img-portifolio:hover {
+        border: 2px solid #354259;
+    }
 
-.img-portifolio {
-    width: 500px;
-    height: 310px;
-    transition: 0.4s;
-    cursor: pointer;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    position: static;
-}
+    .card-title img {
+        margin-top: -70px;
+    }
 
-.img-portifolio:hover {
-    border: 2px solid #354259;
-}
+    .card {
+        margin-top: 70px;
+    }
+
+    .oquefaco {
+        background-color: #000;
+    }
+
+    .title-card-portifolio {
+        color: #fff;
+    }
+
 }
