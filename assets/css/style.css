@@ -20,13 +20,20 @@ body {
     width: 100%;
 }
 
+.tel-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
 .img-midias-sociais {
     width: 35px;
 }
 
 .midias-sociais {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding: 8px;
     gap: 8px;
@@ -71,7 +78,7 @@ span {
     color: #354259;
     text-decoration: none;
     border: 1px solid #ece5c7;
-    background-color: #ece5c7;
+    background-color: #fff;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
@@ -315,6 +322,7 @@ span {
         width: 35px;
         justify-content: center;
         margin-top: -150px;
+        border-radius: 12px;
     }
     
 }
@@ -401,5 +409,15 @@ span {
         color: #fff;
         margin-top: 100px;
     }
+    
+    .tel-contact p {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
 
+@media screen and (min-width: 500px){
+    .quemSou p {
+        font-size: 22px;
+    }
 }
