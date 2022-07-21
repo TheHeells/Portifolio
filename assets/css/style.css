@@ -177,6 +177,30 @@ span {
     border-radius: 15px;
 }
 
+/* BOTÃO PARA REPOSITORIO DO GIT */
+/* .link-git {
+    background-color: #ff0044;
+    position: absolute;
+    display: flex;
+    margin-top: 390px;
+    margin-right: 360px;
+    border-radius: 10px;
+}
+
+.link-git a {
+    text-decoration: none;
+    padding: 8px;
+    color: #000;
+    font-weight: bold;
+}
+
+.img-repositorio{
+    width: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+} */
+
 @media (max-width: 900px) {
   
     .div-content {
@@ -280,6 +304,30 @@ span {
         margin-top: -150px;
         border-radius: 12px;
     }
+
+    /* REPOSITORIO GIT */
+    .link-git {
+        width: 50%;
+        background-color: #ff0044;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    
+    .link-git a {
+        text-decoration: none;
+        padding: 8px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .img-repositorio{
+        width: 18px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+    }
 }
 
 @media (max-width: 1138px) {
@@ -325,7 +373,7 @@ span {
         color: #fff;
         -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
         filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-        margin-bottom: -87px;
+        margin-bottom: -90px;
     }
     .img-portifolio {
         width: 500px;
@@ -355,6 +403,28 @@ span {
     .tel-contact p {
         font-size: 30px;
         font-weight: 600;
+    }
+    .link-git {
+        background-color: #ff0044;
+        position: absolute;
+        display: flex;
+        margin-top: 390px;
+        margin-right: 360px;
+        border-radius: 10px;
+    }
+    
+    .link-git a {
+        text-decoration: none;
+        padding: 8px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .img-repositorio{
+        width: 18px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
     }
 }
 
