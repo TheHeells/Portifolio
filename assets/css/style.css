@@ -9,28 +9,24 @@
     font-family: 'Nunito', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
 }
-
 body {
     background-color: #ff0044;
 }
 
-/* Header */
+/* HEADER */
 .header-content {
     display: block;
     width: 100%;
 }
-
 .tel-contact {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .5em;
 }
-
 .img-midias-sociais {
     width: 35px;
 }
-
 .midias-sociais {
     display: flex;
     justify-content: space-between;
@@ -39,16 +35,13 @@ body {
     gap: 8px;
     background-color: #fff;
 }
-
 .img-logo {
     width: 150px;
     margin-left: 20px;
 }
-
 span {
     color: #fff;
 }
-
 .fullStack {
     display: flex;
     text-align: center;
@@ -56,7 +49,6 @@ span {
     transition: all 0.5s;
     cursor: pointer;
 }
-
 .navbar-content {
     display: flex;
     align-items: center;
@@ -65,14 +57,12 @@ span {
     padding: 15px;
     flex-wrap: wrap;
 }
-
 .div-content {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
     font-size: 18px;
 }
-
 .btn {
     gap: 10px;
     color: #354259;
@@ -85,28 +75,24 @@ span {
     transition: all 0.5s;
     color: #ff0044;
 }
-
 .btn:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     border: 1px solid #000;
 }
 
-/* Section Quem sou */
-
+/* QUEM SOU */
 .quemSou-content {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
-
 .quemSou h1 {
     font-size: 40px;
     color: #fff;
     font-weight: 600;
 }
-
 .quemSou p {
     max-width: 900px;
     font-size: 25px;
@@ -114,7 +100,6 @@ span {
     padding: 15px;
     color: #fff;
 }
-
 .img-logo2 {
     width: 300px;
     display: flex;
@@ -124,14 +109,12 @@ span {
     transition: all .5s;
     border: 10px solid transparent;
 }
-
 .img-logo2:hover {
     border: 10px solid #000;
     border-radius: 50%;
 }
 
-/* section Oque faço */
-
+/* OQUE EU FAÇO */
 .skills {
     margin-bottom: -30px;
     text-align: center;
@@ -141,7 +124,6 @@ span {
     -webkit-filter: drop-shadow(50px 50px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
-
 .oquefaco {
     height: 450px;
     background-color: #354259;
@@ -150,7 +132,6 @@ span {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .card {
     padding-top: 70px;
     display: block;
@@ -159,7 +140,6 @@ span {
     background-color: #fff;
     border-radius: 45px;
 }
-
 .card p {
     display: flex;
     justify-content: center;
@@ -167,7 +147,6 @@ span {
     font-size: 25px;
     line-height: 0.1;
 }
-
 .card-title {
     display: flex;
     justify-content: center;
@@ -176,27 +155,21 @@ span {
     cursor: pointer;
     position: relative;
 }
-
 .card img {
     padding-top: -50px;
 }
-
-
 .laravel {
     width: 100px;
     border-radius: 20px;
 }
 
 /* PORTIFOLIO */
-
 .faixa-portifolio {
     color: #fff;
 }
-
 .portifolio {
     background-color: #000;
 }
-
 .img-faixa {
     width: 50px;
     align-items: center;
@@ -204,46 +177,38 @@ span {
     border-radius: 15px;
 }
 
-
 @media (max-width: 900px) {
   
     .div-content {
         display: none;
         flex-wrap: wrap;
     }
-
     .navbar-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
     .quemSou-content {
         display: flex;
         flex-direction: column;
     }
-
     .quemSou p {
         font-size: 16px;
     }
-
     .quemSou h1 {
         font-size: 22px;
     }
-
     .img-logo {
         display: flex;
         justify-content: center;
         margin-left: 0;
     }
-
     .img-logo2 {
         width: 16em;
         justify-content: center;
         border-radius: 50%;
         border: 10px solid #000;
     }
-
     .oquefaco {
         width: 100%;
         display: flex;
@@ -253,7 +218,6 @@ span {
         background-color: #000;
         padding: 15px;
     }
-
     .card {
         margin-top: 70px;
         width: 100%;
@@ -261,22 +225,18 @@ span {
         background-color: #fff;
         height: 200px;
     }
-
     .card-title {
         display: flex;
         justify-content: center;
     }
-
     .card img {
         width: 75px;
         margin-top: -55px;
     }
-
     .skills {
         font-size: 35px;
         margin-bottom: -20px;
     }
-
     .card p {
         display: flex;
         justify-content: center;
@@ -285,7 +245,6 @@ span {
         font-size: 20px;
         line-height: 0;
     }
-
     .img-portifolio {
         font-display: flex;
         justify-content: center;
@@ -293,17 +252,14 @@ span {
         width: 100%;
         border-radius: 15px;
     }
-
     .card-portifolio {
         padding: 15px;
     }
-
     .title-card-portifolio {
         font-size: 16px;
         text-align: center;
         color: #fff;
     }
-
     .title-portifolio {
         text-align: center;
         padding-top: 20px;
@@ -324,7 +280,6 @@ span {
         margin-top: -150px;
         border-radius: 12px;
     }
-    
 }
 
 @media (max-width: 1138px) {
@@ -332,12 +287,10 @@ span {
         height: auto;
 
     }
-
     .card {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
     .quemSou-content {
         flex-direction: column;
     }
@@ -354,20 +307,16 @@ span {
         flex-wrap: wrap;
         gap: 90px;
     }
-
     .card-portifolio {
         flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 20px;
-
     }
-
     .card-portifolio p {
         font-weight: bold;
     }
-
     .title-portifolio {
         margin-top: 60px;
         text-align: center;
@@ -378,7 +327,6 @@ span {
         filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
         margin-bottom: -87px;
     }
-
     .img-portifolio {
         width: 500px;
         height: 310px;
@@ -388,28 +336,22 @@ span {
         border: 2px solid transparent;
         position: static;
     }
-
     .img-portifolio:hover {
         border: 2px solid #ff0044;
     }
-
     .card-title img {
         margin-top: -70px;
     }
-
     .card {
         margin-top: 70px;
     }
-
     .oquefaco {
         background-color: #000;
     }
-
     .title-card-portifolio {
         color: #fff;
         margin-top: 100px;
     }
-    
     .tel-contact p {
         font-size: 30px;
         font-weight: 600;
