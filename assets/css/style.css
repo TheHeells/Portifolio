@@ -237,6 +237,8 @@ span {
         flex-wrap: wrap;
     }
 
+   
+
     .navbar-content {
         display: flex;
         flex-direction: column;
